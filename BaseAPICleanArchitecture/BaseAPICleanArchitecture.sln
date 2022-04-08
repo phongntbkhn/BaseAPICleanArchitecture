@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{0E57BD28-7016-4A19-845D-E9D5D030C47E}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{726D7572-9BD4-499D-87A8-F64CF39F43A1}"
 EndProject
@@ -17,13 +20,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.WebApi", "4.WebApi", "{11
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Test", "5.Test", "{C0E99CD1-5E40-46F7-8491-64A390B459BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityModel", "EntityModel\EntityModel.csproj", "{37F5C6ED-16FF-447B-97BD-E1873B45DA70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityModel", "EntityModel\EntityModel.csproj", "{37F5C6ED-16FF-447B-97BD-E1873B45DA70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.DataAccess", "DataAccess\Infrastructure.DataAccess.csproj", "{3C5123FE-1F09-4D5B-B84C-0A784B27891C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.DataAccess", "DataAccess\Infrastructure.DataAccess.csproj", "{3C5123FE-1F09-4D5B-B84C-0A784B27891C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationModel", "ApplicationModel\ApplicationModel.csproj", "{CCD2BFF0-DB20-44F5-8D30-CA2DDF2AEE19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationModel", "ApplicationModel\ApplicationModel.csproj", "{CCD2BFF0-DB20-44F5-8D30-CA2DDF2AEE19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Application", "Infrastructure.Application\Infrastructure.Application.csproj", "{FA15A6C9-FD75-45AC-A912-030E439EB6BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.Application", "Infrastructure.Application\Infrastructure.Application.csproj", "{FA15A6C9-FD75-45AC-A912-030E439EB6BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
